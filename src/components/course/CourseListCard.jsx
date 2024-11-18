@@ -8,6 +8,8 @@ function CourseListCard() {
           <div class="card__body">
             <div class="courses">
               <Courseitem />
+              <Courseitem />
+              <Courseitem />
             </div>
           </div>
         </div>
