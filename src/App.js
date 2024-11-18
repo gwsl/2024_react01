@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+
+
+// 파스칼 케이스 사용해야 된다. (첫글자 대문저 단어 첫글자 대문자)
+// function Counter() {
+//   return (
+//     <button> Counter</button>
+//   );
+// }
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+        <CourseListCard />
+
     </div>
   );
 }
