@@ -12,7 +12,7 @@ import Library from './components/step01/Library';
 
 function App() {
   return (
-    <main>
+    <main className='App'>
       
         {/* 3단계 <CourseListCard /> */}
         <Library />
