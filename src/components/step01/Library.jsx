@@ -1,11 +1,11 @@
 import React from 'react';
 import Book from './Book';
 
-function Library(props) {
+function Library() {
     return (
         <div>
-            <Book name="처음 만난 리액트" numOfPage="300" /> <hr/>
-            <Book name="처음 만난 스프링 부트" numOfPage="550" /><hr/>
+            <Book name="처음 만난 React" numOfPage="150" /> <hr/>
+            <Book name="처음 만난 SpringBoot" numOfPage="550" /><hr/>
             <Book name="처음 만난 MySQL" numOfPage="250" /><hr/>
         </div>
     );

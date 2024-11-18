@@ -14,8 +14,8 @@ function App() {
   return (
     <main className='App'>
       
-        {/* 3단계 <CourseListCard /> */}
-        <Library />
+        <CourseListCard />
+        {/* <Library /> */}
 
     </main>
     
