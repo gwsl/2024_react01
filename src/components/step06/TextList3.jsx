@@ -24,7 +24,7 @@ const people = [{
 // filter는 원하는 것만(조건에 맞는 item만) 추출
 function TextList3(props) {
     const chemist = people.filter((k) => {
-      return k.profession == 'chemist'
+      return k.profession === 'chemist'
     });
     
     const listItems =   chemist.map((k) => {

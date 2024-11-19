@@ -1,6 +1,7 @@
 import CourseItem from "./CourseItem";
 
-
+     
+        
 function CouseListCard({items}) {
     const [course1, course2, course3] = items;
     return (
