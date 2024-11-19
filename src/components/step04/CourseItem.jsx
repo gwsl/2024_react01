@@ -1,7 +1,7 @@
 function CourseItem({title, description, image}) {
     return (
         <article className="course">
-            <img class="course__img" src={image}
+            <img className="course__img" src={image}
                 alt="강의이미지" style={{ width: "100px" }} />
             <div className="course__body">
                 <div className="course__title">{title}</div>
