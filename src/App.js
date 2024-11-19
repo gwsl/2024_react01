@@ -7,6 +7,8 @@ import PackingList from './components/step05/PackingList';
 import TextList from './components/step06/TextList';
 import TextList2 from './components/step06/TextList2';
 import TextList3 from './components/step06/TextList3';
+import Event01 from './components/step07/Event01';
+import Event02 from './components/step07/Event02';
 
 // 파스칼 케이스 사용해야 된다. (첫글자 대문저 단어 첫글자 대문자)
 // function Counter() {
@@ -52,6 +54,11 @@ function App() {
       <TextList2 />
       <hr />
       <TextList3 />
+      <hr />
+      <Event01 />
+      <hr />
+      <Event02 />
+      <br /><br /><br /><br /><br /><br /><br />
     </>
   );
 }
